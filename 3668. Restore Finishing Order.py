@@ -1,8 +1,8 @@
 class Solution:
     def recoverOrder(self, order: List[int], friends: List[int]) -> List[int]:
-        l = []
+        a = []
         for i in order:
             if i in friends:
-                l.append(i)
-        return l
+                a.append(i)
+        return a
         
